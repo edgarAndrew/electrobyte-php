@@ -312,3 +312,17 @@ footer a {
   float: left;
   color: white;
 }
+.rating{
+  display: none;
+}
+.carousel-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin: 2rem 2rem 0 2rem;
+}
+.carousel-container > div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}

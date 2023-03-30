@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrobyte</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <navbar>
+        <div>
+            <img id="logo" src="electrobyte.jpg" alt="logo">
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">PC Components</a>
+                        <ul>
+                            <li><a href="processor.html">Processor</a></li>
+                            <li><a href="#">Motherboard</a></li>
+                            <li><a href="#">CPU Cooler</a></li>
+                            <li><a href="#">RAM</a></li>
+                            <li><a href="#">Graphics Card</a></li>
+                            <li><a href="#">SSD</a></li>
+                            <li><a href="#">Hard Drive</a></li>
+                            <li><a href="#">Power Supply</a></li>
+                            <li><a href="#">Cabinet</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pre-Built PC</a></li>
+                    <li><a href="#">Custom PC</a>
+                    <ul>
+                        <li><a href="#">Intel Custom PC Build</a></li>
+                        <li><a href="#">AMD Custom PC Build</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Peripherals</a>
+                    <ul>
+                        <li><a href="#">Keyboard</a></li>
+                        <li><a href="#">Mouse</a></li>
+                        <li><a href="#">Mousepad</a></li>
+                        <li><a href="#">Monitor</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="icon">
+                    <img src="user-regular.png" alt="user">
+                </div>
+                <div class="icon">
+                    <a href="cart.html"><img src="cart.png" alt="cart"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <form>
+                <input type="text">
+                <button type="submit"><h4>Search</h4></button>
+            </form>
+        </div>
+    </navbar>
+    <div class="content">
+        <div class="cart-items">
+            <table>
+                <thead>
+                 <tr>
+                  <th><h3>PRODUCT</h3></th>
+                  <th><h3>IMAGE</h3></th>
+                  <th><h3>PRICE</h3></th>
+                  <th><h3>QUANTITY</h3></th>
+                  <th><h3>SUBTOTAL</h3></th>
+                  <th>&nbsp;</th>
+                 </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Intel Core I3-10100F Processor</td>
+                        <td><img src="i5-processor.jpg" class="cart-img" alt="logo"></td>
+                        <td><h4>Rs.6,190</h4></td>
+                        <td><input type="number" value="1"></td>
+                        <td><h4>Rs.6,190</h4></td>
+                        <td><button>X</button></td>
+                    </tr>
+                    <tr>
+                        <td>Intel Core I3-10100F Processor</td>
+                        <td><img src="i5-processor.jpg" class="cart-img" alt="logo"></td>
+                        <td><h4>Rs.6,190</h4></td>
+                        <td><input type="number" value="1"></td>
+                        <td><h4>Rs.6,190</h4></td>
+                        <td><button>X</button></td>
+                    </tr>
+                    <tr>
+                        <td>Intel Core I3-10100F Processor</td>
+                        <td><img src="i5-processor.jpg" class="cart-img" alt="logo"></td>
+                        <td><h4>Rs.6,190</h4></td>
+                        <td><input type="number" value="1"></td>
+                        <td><h4>Rs.6,190</h4></td>
+                        <td><button>X</button></td>
+                    </tr>
+                </tbody>
+               </table>
+            <div>
+                <input type="text" placeholder="Coupon code">
+                <button><h4>APPLY COUPON</h4></button>
+            </div>
+        </div>
+        <div class="cart-details">
+            <h3>CART TOTAL</h3><hr>
+            <div>
+                <h4>Subtotal: </h4>
+                <h4>Rs.12,180</h4>
+            </div><hr>
+            <div>
+                <h4>Shipping: </h4>
+                <div>
+                    <div>
+                        <input type="radio" id="home-delivery" name="home-delivery" value="home-delivery">
+                        <label for="home-delivery">Home Delivery</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="store" name="store" value="store">
+                        <label for="store">Offline Store Pickup</label>
+                    </div>
+                </div>
+            </div><hr>
+            <div>
+                <h1>TOTAL:</h1>
+                <h2><span>Rs.12,180</span></h2>
+            </div>
+            <button><h4>Proceed to checkout</h4></button>
+        </div>
+    </div>
+</body>
+</html>

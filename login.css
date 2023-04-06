@@ -5,7 +5,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
+	font-family: 'segoe ui', sans-serif;
     background-image: url('login-background.png');
 }
 .main{
@@ -60,7 +60,6 @@ button{
 	outline: none;
 	border: none;
 	border-radius: 5px;
-	transition: .2s ease-in;
 	cursor: pointer;
 }
 button:hover{

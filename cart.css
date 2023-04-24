@@ -164,7 +164,6 @@ navbar > div{
     height: 4rem;
   }
   
-  
   @media screen and (max-width: 600px){
     thead{
       display: none;
@@ -261,5 +260,9 @@ navbar > div{
   }
   .cart-details button:hover{
     cursor: pointer;
+  }
+
+  .cart-body > tr > span{
+    display: none;
   }
   

@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "name" : "Intel Core i3-12100F 12th Gen Desktop Processor",
+        "price" : "₹7,999",
+        "brand":"intel",
+        "image":"https://cdn1.smartprix.com/rx-ijmptqoHd-w420-h420/intel-core-i3-12100f.webp"
+    },
+    {
+        "id":2,
+        "name" : "Intel Core i7-11700 Desktop Processor",
+        "price" : "₹26,297",
+        "brand":"intel",
+        "image":"https://cdn1.smartprix.com/rx-i6BurbWAH-w1200-h1200/intel-core-i7-11700.webp"
+    },
+    {
+        "id":3,
+        "name" : "Intel Core i5-10600K Processor",
+        "price" : "₹22,500",
+        "brand":"intel",
+        "image":"https://cdn1.smartprix.com/rx-inuKwzuFm-w1200-h1200/intel-core-i5-10600k.webp"
+    },
+    {
+        "id":4,
+        "name" : "Intel Pentium Gold G-6400 Desktop Processor",
+        "price" : "₹6,399",
+        "brand":"intel",
+        "image":"https://cdn1.smartprix.com/rx-i9uf7BViV-w420-h420/intel-pentium-gold-g.webp"
+    },
+    {
+        "id":5,
+        "name" : "AMD Athlon 3000G Desktop Processor",
+        "price" : "₹8,700",
+        "brand":"amd",
+        "image":"https://cdn1.smartprix.com/rx-i37Csz3v1-w420-h420/amd-athlon-3000g-des.webp"
+    },
+    {
+        "id":6,
+        "name" : "AMD Ryzen 5 3500 3rd Gen Processor",
+        "price" : "₹18,499",
+        "brand":"amd",
+        "image":"https://cdn1.smartprix.com/rx-iMul5kIeU-w420-h420/amd-ryzen-5-3500-3rd.webp"
+    },
+    {
+        "id":7,
+        "name" : "AMD Ryzen 7 3800XT Desktop Processor",
+        "price" : "₹28,999",
+        "brand":"amd",
+        "image":"https://cdn1.smartprix.com/rx-iv301p7gZ-w420-h420/amd-ryzen-7-3800xt-d.webp"
+    },
+    {
+        "id":8,
+        "name" : "AMD A10-7800 Series Processor",
+        "price" : "₹13,000",
+        "brand":"amd",
+        "image":"https://cdn1.smartprix.com/rx-irkDiIaae-w420-h420/amd-a10-7800-series.webp"
+    }
+]

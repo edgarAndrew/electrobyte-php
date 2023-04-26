@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electrobyte</title>
+    <title>LoginForm2</title>
     <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-    <div class="main">  	
-		<input type="checkbox" id="chk" aria-hidden="true">
-
-			<div class="signup">
-				<form>
-					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="txt" placeholder="User name" required="">
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Sign up</button>
-				</form>
-			</div>
-
-			<div class="login">
-				<form>
-					<label for="chk" aria-hidden="true">Login</label>
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Login</button>
-				</form>
-			</div>
-	</div>
+    <div class="form-structor">
+        <div class="signup">
+            <h2 class="form-title" id="signup"><span style="color: white;">or</span>Sign up</h2>
+            <div class="form-holder">
+                <input type="text" name="username" id="username" class="input" placeholder="Name" />
+                <input type="email" name="email" id="email" class="input" placeholder="Email" />
+                <input type="password" class="input" placeholder="Password" id="pwd" name="password"/>
+                <span>
+                    <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+                </span>
+            </div>
+            <button class="submit-btn">Sign up</button>
+        </div>
+        <div class="login slide-up">
+            <div class="center">
+                <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+                <div class="form-holder">
+                    <input type="email" name="email" id="email" class="input" placeholder="Email" />
+                    <input type="password" class="input" placeholder="Password" id="pwd" name="password2"/>
+                    <span>
+                        <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+                    </span>
+                </div>
+                <button class="submit-btn">Log in</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 </body>
 </html>

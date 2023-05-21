@@ -145,14 +145,6 @@ navbar > div{
     width: 100%;
     height: 80vh;
   }
-  .desc{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 2rem;
-    row-gap: 2rem;
-    width: 100vw;
-    margin: 0 1rem;
-  }
   @media all and (max-width:600px){
     .desc{
       position: relative;
@@ -214,32 +206,13 @@ navbar > div{
     cursor: pointer;
     background-color: #EEEEEE;
   }
+  .prod-info span{
+    display: none;
+  }
   #quantity{
     width: 2rem;
     height: 100%;
     border: none;
     padding: 0 0 0 1rem;
-  }
-  table, th, td {
-    border: solid 1px #EEEEEE;
-    padding: 10px;
-    color: #666666;
-  }
-  
-  table {
-      border-collapse:collapse;
-      caption-side:bottom;
-  }
-  td{
-    width: 10vw;
-  }
-  .desc > div{
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-    align-items: stretch;
-  }
-  .desc h3{
-    color:  #3e3b3b;
   }
   

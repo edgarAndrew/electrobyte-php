@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="image-slider.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
     <title>Electrobyte</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="home.js" defer></script>
 </head>
 <body>
     <navbar>
         <div>
-            <img id="logo" src="assets\electrobyte.jpg" alt="logo">
+            <img id="logo" src="../assets/electrobyte.jpg" alt="logo">
             <div class="navbar-links">
                 <ul>
                     <li><a href="#">PC Components</a>
                         <ul>
-                            <li><a href="processor.html">Processor</a></li>
-                            <li><a href="#">Motherboard</a></li>
-                            <li><a href="#">CPU Cooler</a></li>
-                            <li><a href="#">RAM</a></li>
-                            <li><a href="#">Graphics Card</a></li>
-                            <li><a href="#">SSD</a></li>
-                            <li><a href="#">Hard Drive</a></li>
-                            <li><a href="#">Power Supply</a></li>
-                            <li><a href="#">Cabinet</a></li>
+                            <li><a href="../products/products.html?category=processor">Processor</a></li>
+                            <li><a href="../products/products.html?category=motherboard">Motherboard</a></li>
+                            <li><a href="../products/products.html?category=cooler">CPU Cooler</a></li>
+                            <li><a href="../products/products.html?category=ram">RAM</a></li>
+                            <li><a href="../products/products.html?category=graphics">Graphics Card</a></li>
+                            <li><a href="../products/products.html?category=ssd">SSD</a></li>
+                            <li><a href="../products/products.html?category=hdd">Hard Drive</a></li>
+                            <li><a href="../products/products.html?category=psu">Power Supply</a></li>
+                            <li><a href="../products/products.html?category=cabinet">Cabinet</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Pre-Built PC</a></li>
@@ -37,20 +39,20 @@
                     </li>
                     <li><a href="#">Peripherals</a>
                     <ul>
-                        <li><a href="#">Keyboard</a></li>
-                        <li><a href="#">Mouse</a></li>
-                        <li><a href="#">Mousepad</a></li>
-                        <li><a href="#">Monitor</a></li>
+                        <li><a href="../products/products.html?category=keyboard">Keyboard</a></li>
+                        <li><a href="../products/products.html?category=mouse">Mouse</a></li>
+                        <li><a href="../products/products.html?category=mousepad">Mousepad</a></li>
+                        <li><a href="../products/products.html?category=monitor">Monitor</a></li>
                     </ul>
                     </li>
                 </ul>
             </div>
             <div class="profile">
                 <div class="icon">
-                    <img src="assets\user-regular.png" alt="user">
+                  <a href="../login/login.html"><img src="../assets/user-regular.png" alt="user"></a>
                 </div>
                 <div class="icon">
-                    <a href="cart.html"><img src="assets\cart.png" alt="cart"></a>
+                    <a href="../cart/cart.html"><img src="../assets/cart.png" alt="cart"></a>
                 </div>
             </div>
         </div>
@@ -65,15 +67,15 @@
     <main>
         <div class="wrapper box">
             <div class="single-box">
-                <img src="assets\slider2.webp" style="width:80%">
+                <img src="../assets/slider2.webp" style="width:80%">
             </div>
             
             <div class="single-box">
-                <img src="assets\Slider3.jpg" style="width:80%">
+                <img src="../assets/Slider3.jpg" style="width:80%">
             </div>
             
             <div class="single-box">
-                <img src="assets\slider1.jpg" style="width:80%">
+                <img src="../assets/slider1.jpg" style="width:80%">
             </div>
         </div> 
 
@@ -87,7 +89,7 @@
                                 <h4 style="color: red;">BEST PRICES</h4>
                                 <a href="#" style="color: red; text-decoration: underline;"><h4>Shop Now!</h4></a>
                         </div>
-                        <p><a href="#"><img src="assets\Intel-Core-I5.webp" alt="Processor"></a></p>
+                        <p><a href="#"><img src="../assets/Intel-Core-I5.webp" alt="Processor"></a></p>
                     </div>
                     <div>
                         <div>
@@ -95,7 +97,7 @@
                             <h3 style="color: red;">BEST PRICES</h3>
                             <a href="#" style="color: red; text-decoration: underline;"><h4>Shop Now!</h4></a>
                         </div>
-                        <p><a href="#"><img src="assets\Inno3d-GTX.webp" alt="Graphics Card"></a></p>
+                        <p><a href="#"><img src="../assets/Inno3d-GTX.webp" alt="Graphics Card"></a></p>
                     </div>
             </div>
         </div>
@@ -107,7 +109,7 @@
                 <p>Just give us a chance to serve you and get your Dream Gaming PC Build or Editing PC Build from us. So if you’re looking to buy PC online then you’re at the right place. </p>
                 <p>For best Online PC Build services and prices shop Electrobyte!</p>
             </div>
-            <img src="assets\custom-pc-2.webp" alt="Custom PC">
+            <img src="../assets/custom-pc-2.webp" alt="Custom PC">
         </section>
 
         <section class="customPC">
@@ -115,13 +117,13 @@
             <p>Gaming PC / Editing PC Configurator
                <br> Choose your platform 🙂</p>
                <div>
-                    <img src="assets\intel-pc-image-2.webp" alt="Intel Custom PC" width="40%">
+                    <img src="../assets/intel-pc-image-2.webp" alt="Intel Custom PC" width="40%">
                     <h3>Intel Custom PC Build</h3>
                     <p>From ₹15,000</p>
                     <a href="#">Build Now</a>
                </div>
                <div>
-                    <img src="assets\amd-pc-image.webp" alt="AMD Custom PC" width="40%">
+                    <img src="../assets/amd-pc-image.webp" alt="AMD Custom PC" width="40%">
                     <h3>AMD Custom PC Build</h3>
                     <p>From ₹15,000</p>
                     <a href="#">Build Now</a>
@@ -143,28 +145,28 @@
                       </a>
                     <div class="media-element">
                       <img
-                        src="assets/Inno3d-GTX.webp"
+                        src="../assets/Inno3d-GTX.webp"
                         alt="image">
                         <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                         <p>₹12,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets/Inno3d-GTX.webp"
+                          src="../assets/Inno3d-GTX.webp"
                           alt="image">
                           <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                           <p>₹12,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets/Inno3d-GTX.webp"
+                          src="../assets/Inno3d-GTX.webp"
                           alt="image">
                           <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                         <p>₹12,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets/Inno3d-GTX.webp"
+                          src="../assets/Inno3d-GTX.webp"
                           alt="image">
                           <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                         <p>₹12,990</p>
@@ -186,28 +188,28 @@
                     </a>
                     <div class="media-element">
                         <img
-                          src="assets/Inno3d-GTX.webp"
+                          src="../assets/Inno3d-GTX.webp"
                           alt="image">
                           <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                         <p>₹12,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets/Inno3d-GTX.webp"
+                            src="../assets/Inno3d-GTX.webp"
                             alt="image">
                             <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                         <p>₹12,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets/Inno3d-GTX.webp"
+                            src="../assets/Inno3d-GTX.webp"
                             alt="image">
                             <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                         <p>₹12,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets/Inno3d-GTX.webp"
+                            src="../assets/Inno3d-GTX.webp"
                             alt="image">
                             <h4>MSI Radeon RX 6400 Aero ITX 4GB</h4>
                         <p>₹12,990</p>
@@ -258,28 +260,28 @@
                       </a>
                     <div class="media-element">
                       <img
-                        src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                        src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                         alt="image">
                         <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                          src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                           alt="image">
                           <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                          src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                           alt="image">
                           <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                          src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                           alt="image">
                           <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
@@ -301,28 +303,28 @@
                     </a>
                     <div class="media-element">
                         <img
-                          src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                          src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                           alt="image">
                           <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                            src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                             alt="image">
                             <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                            src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                             alt="image">
                             <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets\AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
+                            src="../assets/AMD-Ryzen-9-7950X-Processor-With-Radeon-Graphics.webp"
                             alt="image">
                             <h4>AMD Ryzen 9 7950X Processor With Radeon Graphics</h4>
                     <p>₹59,990</p>
@@ -371,28 +373,28 @@
                       </a>
                     <div class="media-element">
                       <img
-                        src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
+                        src="../assets/Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
                         alt="image">
                         <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
                     <p>₹18,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
+                          src="../assets/Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
                           alt="image">
                           <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
                     <p>₹18,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
+                          src="../assets/Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
                           alt="image">
                           <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
                     <p>₹18,990</p>
                     </div>
                     <div class="media-element">
                         <img
-                          src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
+                          src="../assets/Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
                           alt="image">
                           <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
                     <p>₹18,990</p>
@@ -414,32 +416,24 @@
                     </a>
                     <div class="media-element">
                         <img
-                          src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
+                          src="../assets/Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
                           alt="image">
                           <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
                     <p>₹18,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
+                            src="../assets/Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
                             alt="image">
                             <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
                     <p>₹18,990</p>
                       </div>
                       <div class="media-element">
                           <img
-                            src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
+                            src="../assets/Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
                             alt="image">
                             <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
                     <p>₹18,990</p>
-                      </div>
-                      <div class="media-element">
-                          <img
-                            src="assets\Corsair-Dominator-Platinum-RGB-DDR5-32GB-16GBx2-6000MHz-Desktop-RAM-Black.webp"
-                            alt="image">
-                            <h4>Corsair Dominator Platinum RGB DDR5 32GB (16GBx2) 6000MHz Desktop RAM (Black)</h4>
-                    <p>₹18,990</p>
-                      </div>
     
                     <a class="next" href="#group-5" aria-label="next">
                       <svg>

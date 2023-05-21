@@ -9,7 +9,7 @@ html, body {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(assets/green3.png);
+  background-image: url(../assets/green3.png);
 }
 
 .form-structor {
@@ -31,7 +31,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 500px;
-  background-image: url(assets/greenback4.jpg);
+  background-image: url(../assets/greenback4.jpg);
 }
 .form-structor .signup {
   position: absolute;

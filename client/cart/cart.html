@@ -11,20 +11,20 @@
 <body>
     <navbar>
         <div>
-            <img id="logo" src="electrobyte.jpg" alt="logo">
+            <img id="logo" src="../assets/electrobyte.jpg" alt="logo">
             <div class="navbar-links">
                 <ul>
                     <li><a href="#">PC Components</a>
                         <ul>
-                            <li><a href="processor.html">Processor</a></li>
-                            <li><a href="#">Motherboard</a></li>
-                            <li><a href="#">CPU Cooler</a></li>
-                            <li><a href="#">RAM</a></li>
-                            <li><a href="#">Graphics Card</a></li>
-                            <li><a href="#">SSD</a></li>
-                            <li><a href="#">Hard Drive</a></li>
-                            <li><a href="#">Power Supply</a></li>
-                            <li><a href="#">Cabinet</a></li>
+                            <li><a href="../products/products.html?category=processor">Processor</a></li>
+                            <li><a href="../products/products.html?category=motherboard">Motherboard</a></li>
+                            <li><a href="../products/products.html?category=cooler">CPU Cooler</a></li>
+                            <li><a href="../products/products.html?category=ram">RAM</a></li>
+                            <li><a href="../products/products.html?category=graphics">Graphics Card</a></li>
+                            <li><a href="../products/products.html?category=ssd">SSD</a></li>
+                            <li><a href="../products/products.html?category=hdd">Hard Drive</a></li>
+                            <li><a href="../products/products.html?category=psu">Power Supply</a></li>
+                            <li><a href="../products/products.html?category=cabinet">Cabinet</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Pre-Built PC</a></li>
@@ -36,20 +36,20 @@
                     </li>
                     <li><a href="#">Peripherals</a>
                     <ul>
-                        <li><a href="#">Keyboard</a></li>
-                        <li><a href="#">Mouse</a></li>
-                        <li><a href="#">Mousepad</a></li>
-                        <li><a href="#">Monitor</a></li>
+                        <li><a href="../products/products.html?category=keyboard">Keyboard</a></li>
+                        <li><a href="../products/products.html?category=mouse">Mouse</a></li>
+                        <li><a href="../products/products.html?category=mousepad">Mousepad</a></li>
+                        <li><a href="../products/products.html?category=monitor">Monitor</a></li>
                     </ul>
                     </li>
                 </ul>
             </div>
             <div class="profile">
                 <div class="icon">
-                    <img src="user-regular.png" alt="user">
+                    <a href="../login/login.html"><img src="../assets/user-regular.png" alt="user"></a>
                 </div>
                 <div class="icon">
-                    <a href="cart.html"><img src="cart.png" alt="cart"></a>
+                    <a href="../cart/cart.html"><img src="../assets/cart.png" alt="cart"></a>
                 </div>
             </div>
         </div>
@@ -83,22 +83,7 @@
                         <td><h4>Rs.6,190</h4></td>
                         <td><button>X</button></td>
                     </tr>
-                    <tr>
-                        <td>Intel Core I3-10100F Processor</td>
-                        <td><img src="i5-processor.jpg" class="cart-img" alt="logo"></td>
-                        <td><h4>Rs.6,190</h4></td>
-                        <td><input type="number" value="1"></td>
-                        <td><h4>Rs.6,190</h4></td>
-                        <td><button>X</button></td>
-                    </tr>
-                    <tr>
-                        <td>Intel Core I3-10100F Processor</td>
-                        <td><img src="i5-processor.jpg" class="cart-img" alt="logo"></td>
-                        <td><h4>Rs.6,190</h4></td>
-                        <td><input type="number" value="1"></td>
-                        <td><h4>Rs.6,190</h4></td>
-                        <td><button>X</button></td>
-                    </tr> -->
+                     -->
                 </tbody>
                </table>
             <div>
@@ -110,7 +95,7 @@
             <h3>CART TOTAL</h3><hr>
             <div>
                 <h4>Subtotal: </h4>
-                <h4>Rs.12,180</h4>
+                <h4 id="subtotal">Rs.12,180</h4>
             </div><hr>
             <div>
                 <h4>Shipping: </h4>
@@ -129,7 +114,7 @@
                 <h1>TOTAL:</h1>
                 <h2><span id="total-price">Rs.12,180</span></h2>
             </div>
-            <button><h4>Proceed to checkout</h4></button>
+            <a href="../buy/buy.html"><button><h4>Proceed to checkout</h4></button></a>
         </div>
     </div>
 </body>

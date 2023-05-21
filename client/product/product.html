@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrobyte</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="carousel.css">
+    <script src="product.js"></script>
+    <script>
+
+    </script>
+</head>
+<body>
+  <navbar>
+    <div>
+        <img id="logo" src="../assets/electrobyte.jpg" alt="logo">
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">PC Components</a>
+                    <ul>
+                        <li><a href="../products/products.html?category=processor">Processor</a></li>
+                        <li><a href="../products/products.html?category=motherboard">Motherboard</a></li>
+                        <li><a href="../products/products.html?category=cooler">CPU Cooler</a></li>
+                        <li><a href="../products/products.html?category=ram">RAM</a></li>
+                        <li><a href="../products/products.html?category=graphics">Graphics Card</a></li>
+                        <li><a href="../products/products.html?category=ssd">SSD</a></li>
+                        <li><a href="../products/products.html?category=hdd">Hard Drive</a></li>
+                        <li><a href="../products/products.html?category=psu">Power Supply</a></li>
+                        <li><a href="../products/products.html?category=cabinet">Cabinet</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Pre-Built PC</a></li>
+                <li><a href="#">Custom PC</a>
+                <ul>
+                    <li><a href="#">Intel Custom PC Build</a></li>
+                    <li><a href="#">AMD Custom PC Build</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Peripherals</a>
+                <ul>
+                    <li><a href="../products/products.html?category=keyboard">Keyboard</a></li>
+                    <li><a href="../products/products.html?category=mouse">Mouse</a></li>
+                    <li><a href="../products/products.html?category=mousepad">Mousepad</a></li>
+                    <li><a href="../products/products.html?category=monitor">Monitor</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="profile">
+            <div class="icon">
+              <a href="../login/login.html"><img src="../assets/user-regular.png" alt="user"></a>
+            </div>
+            <div class="icon">
+                <a href="../cart/cart.html"><img src="../assets/cart.png" alt="cart"></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <form>
+            <input type="text">
+            <button type="submit"><h4>Search</h4></button>
+        </form>
+      </div>
+    </navbar>
+    <div class="content">
+        <div class="upper-cont">
+            <div class="prod-carousel">
+              <div>
+                <div class="carousel">
+                  <ul class="slides">
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <img id="pimage" src="../assets/carousel-pic1.jpeg">
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-3" class="prev-slide">
+                          <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-2" class="next-slide">
+                          <span>&rsaquo;</span>
+                        </label>
+                      </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <img src="../assets/carousel-pic2.jpeg">
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-1" class="prev-slide">
+                          <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-3" class="next-slide">
+                          <span>&rsaquo;</span>
+                        </label>
+                      </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <img src="../assets/carousel-pic3.jpeg">
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-2" class="prev-slide">
+                          <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-1" class="next-slide">
+                          <span>&rsaquo;</span>
+                        </label>
+                      </div>
+                    </li>
+                    <div class="carousel-dots">
+                      <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                      <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                      <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                    </div>
+                  </ul>
+                </div>
+              </div> 
+            </div>
+            <div class="prod-info">
+                <div>
+                    <h1 id="pname">Intel Core I3-10100F Processor</h1>
+                    <!-- <img src="../assets/intel.png" alt="logo" id="brand-logo"> -->
+                </div>
+                <h3 id="p-price">Rs.6,190</h3>
+                <h5>Free Delivery</h5>
+                <div>
+                    <div>
+                        <div>
+                            <button onclick="handleminus()">-</button>
+                            <input type="number" value="1" id="quantity">
+                            <button onclick="handleadd()">+</button>
+                        </div>
+                        <button onclick="addToCart()"><h4>ADD TO CART</h4></button>
+                    </div>
+                </div>
+                <h4 id="brand">SKU: BX8070110100F</h4>
+                <span id="pid"></span>
+                <h4 id="cat">Categories:  Intel Processor , PC Components , Processor</h4>
+                <h4>Description</h4>
+                <p id="p-desc"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

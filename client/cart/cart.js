@@ -7,7 +7,12 @@ const data = {}
 
 for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i)
-    data[key] = JSON.parse(localStorage.getItem(key))
+    try {
+        data[key] = JSON.parse(localStorage.getItem(key));
+      } catch (error) {
+        console.error('Error parsing JSON:', error);
+      }
+    //data[key] = JSON.parse(localStorage.getItem(key))
 }
 
 const updatePrice = () =>{

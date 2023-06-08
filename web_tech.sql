@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2023 at 11:30 AM
+-- Generation Time: Jun 08, 2023 at 08:23 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -38,7 +38,11 @@ CREATE TABLE `orders1` (
 
 INSERT INTO `orders1` (`orderId`, `total`) VALUES
 (1, 10380),
-(9, 14770);
+(9, 14770),
+(10, 19680),
+(12, 8670),
+(13, 7300),
+(14, 16520);
 
 -- --------------------------------------------------------
 
@@ -61,7 +65,14 @@ INSERT INTO `orders2` (`orderId`, `pid`, `quantity`) VALUES
 (1, 13, 1),
 (9, 23, 2),
 (9, 18, 2),
-(9, 26, 1);
+(9, 26, 1),
+(10, 14, 1),
+(10, 11, 1),
+(12, 28, 2),
+(12, 9, 1),
+(13, 10, 2),
+(14, 30, 1),
+(14, 16, 2);
 
 -- --------------------------------------------------------
 
@@ -137,7 +148,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`cid`, `name`, `email`, `password`) VALUES
 (1, 'edgar', 'edgar@gmail.com', 'edgar123'),
-(2, 'john smith', 'john@gmail.com', 'john123');
+(2, 'john smith', 'john@gmail.com', 'john123'),
+(3, 'Cristiano ronaldo', 'cr7@gmail.com', 'cr7123');
 
 --
 -- Indexes for dumped tables
@@ -177,7 +189,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `orders1`
 --
 ALTER TABLE `orders1`
-  MODIFY `orderId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `orderId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `products`
@@ -189,7 +201,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `cid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `cid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables
